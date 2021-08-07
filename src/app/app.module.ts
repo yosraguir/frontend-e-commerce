@@ -11,6 +11,9 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { DetailArticleComponent } from './detail-article/detail-article.component';
 import { LoginComponent } from './login/login.component';
 import { ArticlesComponent } from './articles/articles.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
 
 // required for AOT compilation
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
@@ -22,7 +25,10 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
     AppComponent,
     DetailArticleComponent,
     LoginComponent,
-    ArticlesComponent
+    ArticlesComponent,
+    NavBarComponent,
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
