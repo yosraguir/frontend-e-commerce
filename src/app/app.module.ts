@@ -14,6 +14,8 @@ import { ArticlesComponent } from './articles/articles.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import {FormsModule} from "@angular/forms";
+import { ContactComponent } from './contact/contact.component';
 
 // required for AOT compilation
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
@@ -28,21 +30,23 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
     ArticlesComponent,
     NavBarComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    // ngx-translate and the loader module
-    HttpClientModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    })
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        // ngx-translate and the loader module
+        HttpClientModule,
+        TranslateModule.forRoot({
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory,
+                deps: [HttpClient]
+            }
+        }),
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

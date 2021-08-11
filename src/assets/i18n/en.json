@@ -1,6 +1,16 @@
 {
   "demo": {
     "title": "100% Imported",
-    "text": "imported clothes"
+    "text": "imported clothes",
+    "title_home": "Home",
+    "title_articles" :"Articles",
+    "title_about" : "About",
+    "title_contact" : "Contact",
+    "title_login" : "Login",
+    "title_man" : "Man",
+    "title_women" : "Women",
+    "title_child" : "Child"
+
+
   }
 }

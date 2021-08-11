@@ -1,7 +1,15 @@
 {
   "demo": {
     "title": "100% Importation",
-    "text": "des vetements importées"
+    "text": "des vetements importées",
+    "title_home": "Accueil",
+    "title_articles" :"Articles",
+    "title_about" : "à propos de",
+    "title_contact" : "Contact",
+    "title_login" : "Connexion",
+    "title_man" : "Homme",
+    "title_women" : "Femme",
+    "title_child" : "Enfant"
 
   }
 }
