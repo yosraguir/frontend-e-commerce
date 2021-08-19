@@ -9,7 +9,10 @@
     "title_login" : "Connexion",
     "title_man" : "Homme",
     "title_women" : "Femme",
-    "title_child" : "Enfant"
+    "title_child" : "Enfant",
+    "title_brand" : "Marques",
+    "title_price" : "Gamme de prix"
+
 
   }
 }

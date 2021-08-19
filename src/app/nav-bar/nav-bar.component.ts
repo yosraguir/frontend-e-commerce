@@ -23,6 +23,7 @@ export class NavBarComponent implements OnInit {
       this.textbt="FR";
 
   }
+  
   ngOnInit(): void {
     text:string:"EN"
   }

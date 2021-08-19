@@ -9,7 +9,9 @@
     "title_login" : "Login",
     "title_man" : "Man",
     "title_women" : "Women",
-    "title_child" : "Child"
+    "title_child" : "Child",
+    "title_brand" : "Brands",
+    "title_price" : "Price Range"
 
 
   }
